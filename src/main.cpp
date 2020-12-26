@@ -30,7 +30,6 @@ private:
   uint8_t data_;
 
   rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr publisher_;
-  rclcpp::Publisher<sensor_msgs::msg::CameraInfo>::SharedPtr cinfo_pub_;
 
   rmw_qos_reliability_policy_t reliability_policy_;
   rmw_qos_history_policy_t history_policy_;
